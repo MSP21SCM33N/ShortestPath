@@ -11,10 +11,11 @@ Chicago OakLawn 11
 WestChester OakPark 4
 OakPark WestChester 4
 WestChester OakLawn 6
+OakLawn WestChester 6
 OakLawn Berwyn 3
 Berwyn OakLawn 3
-Westchester Gary 2
-Gary Westchester 2
+WestChester Gary 2
+Gary WestChester 2
 Berwyn Cicero 1
 Cicero Berwyn 1
 OakPark Stickney 12

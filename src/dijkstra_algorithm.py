@@ -104,27 +104,27 @@ def main():
         path=["A", "D", "E", "G"],
         distance=11,
     )
-    verify_algorithm(
-        filename="seattle_area.txt",
-        start="Renton",
-        end="Redmond",
-        path=["Renton", "Factoria", "Bellevue", "Northup", "Redmond"],
-        distance=16,
-    )
-    verify_algorithm(
-        filename="seattle_area.txt",
-        start="Seattle",
-        end="Redmond",
-        path=["Seattle", "Eastlake", "Northup", "Redmond"],
-        distance=15,
-    )
-    verify_algorithm(
-        filename="seattle_area.txt",
-        start="Eastlake",
-        end="Issaquah",
-        path=["Eastlake", "Seattle", "SoDo", "Factoria", "Issaquah"],
-        distance=21,
-    )
+    # verify_algorithm(
+    #     filename="seattle_area.txt",
+    #     start="Renton",
+    #     end="Redmond",
+    #     path=["Renton", "Factoria", "Bellevue", "Northup", "Redmond"],
+    #     distance=16,
+    # )
+    # verify_algorithm(
+    #     filename="seattle_area.txt",
+    #     start="Seattle",
+    #     end="Redmond",
+    #     path=["Seattle", "Eastlake", "Northup", "Redmond"],
+    #     distance=15,
+    # )
+    # verify_algorithm(
+    #     filename="seattle_area.txt",
+    #     start="Eastlake",
+    #     end="Issaquah",
+    #     path=["Eastlake", "Seattle", "SoDo", "Factoria", "Issaquah"],
+    #     distance=21,
+    # )
 
 
 def verify_algorithm(filename, start, end, path, distance):
